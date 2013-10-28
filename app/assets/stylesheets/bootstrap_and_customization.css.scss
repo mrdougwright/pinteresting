@@ -1,7 +1,28 @@
+@import url(http://fonts.googleapis.com/css?family=Corben);
+// @import url(http://fonts.googleapis.com/css?family=IM+Fell+DW+Pica);
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:700);
+
+
+
 $body-bg: #ecf0f1;
+$font-family-base: 'Corben', cursive;
+$font-family-sans-serif: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $navbar-inverse-bg: #2c3e50;
 $navbar-inverse-link-color: white;
+
 $brand-primary: #34495e;
+$input-border-radius: 5px;
 $jumbotron-bg: #f1c40f;
 
 @import "bootstrap";
+
+.input_field {
+  width: 20em;
+  height: 100%;
+  margin-right: 8px;
+  display: inline-block;
+}
+
+.cool-font {
+  font-family: 'Josefin Sans', sans-serif;
+}
