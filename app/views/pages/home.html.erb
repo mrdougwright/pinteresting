@@ -1,2 +1,13 @@
-<h1>Welcome to my app!</h1>
-<p>Sign up <%= link_to "here", '#' %>.</p>
+<div class="jumbotron">
+  <h1>Pinteresting, isn't it?</h1>
+  <br/>
+  <div class: "form-horizontal", role: "form">
+    <div class="form-group">
+      <%= form_for '#' do |f| %>
+      <%= f.label :email, class: "sr-only" %>
+      <%= f.text_field :email, placeholder: "Enter your email" %>
+      <%= f.submit "Sign up", class: "btn btn-primary btn-lg" %>
+    <% end %>
+    </div>
+  </div>
+</div>
