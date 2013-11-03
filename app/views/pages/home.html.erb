@@ -1,13 +1,11 @@
 <div class="jumbotron">
   <h1 class="cool-font">Pinteresting, isn't it?</h1>
-  <br/>
-  <div class: "form-horizontal", role: "form">
-    <div class="form-group">
-      <%= form_for '#' do |f| %>
-      <%= f.label :email, class: "sr-only" %>
-      <%= f.text_field :email, placeholder: "Enter your email", class: "form-control input_field" %>
-      <%= f.submit "Sign up", class: "btn btn-primary btn-lg" %>
-    <% end %>
-    </div>
-  </div>
+  <% if user_signed_in? %>
+    # lksdjf
+  <% else %>
+    <p>
+      <%= link_to "Log in", new_user_session_path, class: "btn btn-default btn-lg" %>
+      <%= link_to "Sign up", new_user_registration_path, class: "btn btn-primary btn-lg" %>
+    </p>
+  <% end %>
 </div>
