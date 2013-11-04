@@ -6,7 +6,7 @@
 
 $body-bg: #ecf0f1;
 $font-family-base: 'Corben', cursive;
-$font-family-sans-serif: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family: verdana, arial, helvetica, sans-serif;
 $navbar-inverse-bg: #2c3e50;
 $navbar-inverse-link-color: white;
 
@@ -23,4 +23,9 @@ $panel-default-heading-bg: #f1c40f;
 
 .form-container {
   max-width: 485px;
+}
+
+// hacking bootstrap for a smaller middle container
+.col-lg-9 {
+  float: center
 }
