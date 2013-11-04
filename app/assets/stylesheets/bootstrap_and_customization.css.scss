@@ -13,9 +13,14 @@ $navbar-inverse-link-color: white;
 $brand-primary: #34495e;
 $input-border-radius: 5px;
 $jumbotron-bg: #f1c40f;
+$panel-default-heading-bg: #f1c40f;
 
 @import "bootstrap";
 
 .cool-font {
   font-family: 'Josefin Sans', sans-serif;
+}
+
+.form-container {
+  max-width: 485px;
 }
