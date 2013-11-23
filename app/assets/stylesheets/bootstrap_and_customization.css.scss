@@ -1,25 +1,19 @@
-@import url(http://fonts.googleapis.com/css?family=Corben);
-// @import url(http://fonts.googleapis.com/css?family=IM+Fell+DW+Pica);
-@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:700);
-
+@import url(http://fonts.googleapis.com/css?family=Play:400,700);
 
 
 $body-bg: #ecf0f1;
-$font-family-base: 'Corben', cursive;
+$font-family-base: 'Play', sans-serif;
 $font-family: verdana, arial, helvetica, sans-serif;
-$navbar-inverse-bg: #2c3e50;
+
+$navbar-inverse-bg: #45C7E7;
 $navbar-inverse-link-color: white;
 
-$brand-primary: #34495e;
+$brand-primary: #45C7E7;
 $input-border-radius: 5px;
-$jumbotron-bg: #f1c40f;
+$jumbotron-bg: #ACDA8E;
 $panel-default-heading-bg: #f1c40f;
 
 @import "bootstrap";
-
-.cool-font {
-  font-family: 'Josefin Sans', sans-serif;
-}
 
 .form-container {
   max-width: 485px;
@@ -28,4 +22,8 @@ $panel-default-heading-bg: #f1c40f;
 // hacking bootstrap for a smaller middle container
 .col-lg-9 {
   float: center
+}
+
+.flat { 
+  border-radius: 0
 }
