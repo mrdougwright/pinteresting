@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.0.0'
+ruby '2.2.3'
 
 gem 'rails', '4.0.0'
 gem 'sass-rails', '~> 4.0.0'
@@ -18,7 +18,7 @@ gem 'will_paginate', '~> 3.0'
 gem 'will_paginate-bootstrap'
 
 group :development, :test do
-  gem 'sqlite3'
+  # gem 'sqlite3'
 end
 
 group :production do
